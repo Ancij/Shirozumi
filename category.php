@@ -13,7 +13,7 @@
 				<!-- MAIN CONTAINER -->
 				<div class="col-xs-12 col-sm-12 col-md-8">
 					<div class="row no-margin post__container">
-						<h2 style="pagetitle">Mostrando entradas de la categoria: <?php single_cat_title(); ?></h2>						
+						<h2 class="page__title">Mostrando entradas de la categoria: <?php single_cat_title(); ?></h2>						
 						<?php include (TEMPLATEPATH . '/templates/the_loop.php'); ?>						
 					</div>
 				</div>

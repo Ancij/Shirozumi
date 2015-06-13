@@ -9,6 +9,6 @@
 	<!-- Flexboxgrid CSS base -->
 	<?php wp_enqueue_style('flexboxgrid', get_template_directory_uri() . '/assets/css/vendor/flexboxgrid.min.css',true); ?>
 	<!-- Estilo principal del sitio -->
-	<?php wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/home.css',true,'1.1'); ?>
+	<?php wp_enqueue_style('style', get_template_directory_uri() . '/assets/css/home.css',true,'2.0'); ?>
 	<?php wp_head(); ?>
 </head>
