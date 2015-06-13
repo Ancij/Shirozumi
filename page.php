@@ -29,14 +29,8 @@
                                        <?php the_title(); ?>
                                     </h1>                                    
                                 </header>
-                                <!-- Display the Post content. -->
                                 <?php the_content(); ?>                              
                                 </p>
-
-                                <footer class="post__footer__container">
-                                    <!-- Display a comma separated list of the Post's Categories. -->
-                                    <?php the_category(' , '); ?>
-                                </footer>
                             </article>
                         <?php endwhile; ?>
                         <!-- post navigation -->

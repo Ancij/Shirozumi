@@ -8,7 +8,7 @@
 				</span>
 				<span class="col-xs-8 col-sm-6 end-xs">
 					<i class="icon-calendar"></i>
-					<?php the_time(); ?>
+					<?php the_time('F j, Y'); ?>
 				</span>
 			</div>
 			<h1 class="post__item__title">
@@ -28,6 +28,6 @@
 <?php endwhile; ?>
 <!-- post navigation -->
 <?php else: ?>
-	<h4>No hemos encontrado resultados</h4>
+	<h2 class="not__found__title">No hemos encontrado resultados</h2>
 <!-- no posts found -->
 <?php endif; ?>

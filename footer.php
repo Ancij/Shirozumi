@@ -1,6 +1,6 @@
 <footer class="footer row no-margin">
 	<div class="col-xs-12 center-xs">
-		<p>Made with <span class="color-red">❤</span> by <a href="http://twitter.com/lauserk">Kildare</a></p>
+		<p>Made with <span class="color-red">❤</span> by <a target="_blank" href="http://twitter.com/lauserk">Kildare</a></p>
 	</div>
 </footer>
 	

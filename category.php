@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 <body class="custom-background">
 	<div class="row no-margin">
@@ -14,12 +13,11 @@
 				<!-- MAIN CONTAINER -->
 				<div class="col-xs-12 col-sm-12 col-md-8">
 					<div class="row no-margin post__container">
+						<h2 style="pagetitle">Mostrando entradas de la categoria: <?php single_cat_title(); ?></h2>						
 						<?php include (TEMPLATEPATH . '/templates/the_loop.php'); ?>						
 					</div>
 				</div>
-			</section>			
+			</section>	
 		</div>
 	</div>
 <?php get_footer(); ?>
-	
-	
