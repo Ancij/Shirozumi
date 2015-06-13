@@ -1,0 +1,78 @@
+
+.show-menu
+	background-color pink
+	padding .3em
+	cursor pointer
+	text-transform uppercase
+	
+.nav
+	margin 1em 0
+	display none
+	
+.nav__list
+	float left
+	list-style none
+	margin 0
+	padding 0
+	position relative
+	background-color $nav-background
+	width 100%
+	text-align center
+	
+	a
+		display block
+		color $nav-color
+		text-decoration none
+		font-weight 700
+		font-size $nav-font-size
+		line-height 32px
+		padding 0 15px
+		font-family $altfont
+		
+	li
+		position relative
+		//display table-cell
+		display block
+		margin 0
+		padding 0
+		
+
+		&:hover
+			background-color $nav-background-hover
+			
+			a
+				color $nav-color-hover
+
+	
+	ul
+		display none
+		position absolute
+		top 100%
+		left 30%
+		background-color $nav-background-secondary
+		padding 0
+		list-style none
+		
+		li
+			float: none;
+			display block
+			width: 125px;
+
+		
+		a
+			line-height: 120%;
+			padding: 10px 15px;
+		
+		ul
+			position absolute
+			top 0
+			left 100%
+			background-color $nav-background
+
+
+.nav__list li:hover > ul
+	display block
+
+		
+
+	
