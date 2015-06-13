@@ -42,9 +42,15 @@
 	}
 	add_action('widgets_init', 'my_register_sidebar');
 
-	/**/
+	/* Añadir Read more... en el loop*/
 	function new_excerpt_more($more) {
 		return ' <a class="read-more" href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More...', 'your-text-domain' ) . '</a>';
 	}
 	add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+	/* Exceprt MÁXIMO */
+	function custom_excerpt_length($length ) {
+		return 35;
+	}
+	add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 ?>

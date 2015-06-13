@@ -8,7 +8,7 @@
 				</span>
 				<span class="col-xs-8 col-sm-6 end-xs">
 					<i class="icon-calendar"></i>
-					<?php the_date(); ?>
+					<?php the_time(); ?>
 				</span>
 			</div>
 			<h1 class="post__item__title">
@@ -21,11 +21,7 @@
 			<?php endif ?>
 		</header>
 		<div class="post__content">
-			<?php if ( is_category() || is_archive() ) {
-				the_excerpt();
-			} else {
-				the_content();
-			} ?>	
+			<?php the_excerpt(); ?>
 		</div>
 		</p>
 	</article>
